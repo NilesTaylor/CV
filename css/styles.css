@@ -31,14 +31,13 @@ h3{
 }
 
 .middle-container{
-    height: 200px; width: 200px;
+    height: 250px; width: 250px;
     margin: auto;
     
 }
 
 .bottom-container{
-    height: 200px; width: 200px
-    ;    
+    margin:auto;    
 }
 
 .top-cloud{
