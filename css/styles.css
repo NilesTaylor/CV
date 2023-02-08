@@ -34,36 +34,15 @@ h3{
 
 .middle-container{
     background-color: #CFF5E7;
-    position: relative;
 }
 
 .bottom-container{
-       
-}
-
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-
-.boat-1{
-    position: absolute;
-    right:27%;
-    bottom:26%;
-}
-
-.skill-row{
-    width: 80%;
-    margin: auto;
-}
-
-.circular-img{
-    border-radius: 100%;
+       margin: 100px auto 100px auto;
+       width: 80%;
 }
 
 .skills{
-    width: 50%;
+    width: 80%;
     margin:100px auto 100px auto;
 }
 
@@ -72,15 +51,32 @@ h3{
 }
 
 .skill-row{
+    width: 80%;
+    margin: auto 50px auto 50px;
+}
+
+.job-row{
+    margin:100px auto auto auto;
+    text-align: left;
+}
+
+.skill-row{
     margin:100px auto 100px auto;
     text-align: left;
+}
+
+.contact-me{
+    margin: 100px auto 100px auto;
+}
+.circular-img{
+    border-radius: 100%;
 }
 
 .iso-img{
     width: 20%;
     border-radius: 20%;
     margin-right: 30px;
-    margin-bottom:20px;
+    margin-bottom:100%;
     float: left;
 }
 
@@ -88,6 +84,6 @@ h3{
     width: 20%;
     border-radius: 20%;
     margin-left: 30px;
-    margin-bottom:20px;
+    margin-bottom:20%;
     float: right;
 }
