@@ -36,6 +36,12 @@ h3{
     background-color: #CFF5E7;
 }
 
+.bottom-container{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
 .profile-row{
     margin: 20px auto 100px auto;
 }
