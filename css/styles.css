@@ -1,7 +1,6 @@
 body{
     text-align: center;
     font-family: 'Merriweather', serif;
-    background-color: #CFF5E7;
 }
 
 h1{
@@ -14,18 +13,24 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #0D4C92;
-    font-weight: normal;
+    color: #66BFBF;
 }
 
 h3{
-    color: black;
+    color: #11999E;
     font-weight: normal;
     font-size: 1.5rem;
 }
 
+hr{
+    border-bottom: 0PX;
+    border-left: 0;
+    border-top: 10PX dotted #EAF6F6;
+    width: 15%;
+}
+
 .top-container{
-    background-color: #CFF5E7;
+    background-color: #EAF6F6;
     margin: 0 auto 0 auto;
     padding-top: 100px;
 }
@@ -35,11 +40,18 @@ h3{
     width: 80%;
 }
 
-.bottom-container{
-    margin: 0 auto 0 auto;
-    width: 50%;
 
+.bottom-container{
+    background-color: #66BFBF;
+    margin: 0 auto 0 auto;
+    width: 100%;
 }
+
+.button-container{
+    height: 100px;
+    margin-top: 50px;
+}
+
 .profile-row{
     margin: 20px auto 100px auto;
 }
@@ -59,6 +71,7 @@ h3{
 }
 
 .circular-img{
+    margin-top: 50px;
     border-radius: 100%;
 }
 
@@ -77,3 +90,35 @@ h3{
     margin-bottom:20%;
     float: right;
 } 
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    float: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .white{
+    color: #EAF6F6;
+  }
