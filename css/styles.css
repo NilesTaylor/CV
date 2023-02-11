@@ -1,5 +1,4 @@
 body{
-    margin:0 auto 0 auto;
     text-align: center;
     font-family: 'Merriweather', serif;
     background-color: #CFF5E7;
@@ -27,23 +26,26 @@ h3{
 
 .top-container{
     background-color: #CFF5E7;
+    margin: 0 auto 0 auto;
     padding-top: 100px;
 }
 
 .middle-container{
     margin: 0 auto 0 auto;
     width: 80%;
-    background-color: #CFF5E7;
 }
 
 .bottom-container{
     margin: 0 auto 0 auto;
-    text-align: center;
     width: 50%;
-}
 
+}
 .profile-row{
     margin: 20px auto 100px auto;
+}
+
+.skills{
+    margin: 100px auto 0 auto;
 }
 
 .job-row{
